@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #001F3F;
+    gap: 3px;
+}
+
+button{
+    padding: 40px 10px;
+    border-radius: 20px;
+    border: solid 1px #f6f6f6;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #001F3F;
+}
+
+button:hover{
+    transform: scale(0.9,0.9);
+    background-color: #083358;
+    color: #f6f6f6;
+    filter: drop-shadow(15px 10px 5px #f6f6f6)
+}
+
+header{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD717;
+    font-family: "PT Sans", sans-serif;
+    color: #083358;
+    font-size: 24px;
+}
+
+.logo__uscs{
+    width: 70px;
+    height: 70px;
+}
+
+.botao__voltar, .voltar{
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    color: #001F3F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #FFD717;
+    font-family: "PT Sans", sans-serif;
+    color: #001F3F;
+    font-size: 24px;
+}
+
+.paragrafo__rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link__membros{
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: solid 3px #083358;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #083358;
+    text-decoration: none;
+    background-color: #f6f6f6;
+    filter: drop-shadow(15px 10px 5px #FFD717);
+    transform: scale(0.9,0.9);
+}
+
+.container__membros{
+    padding: 20px;
+    width: 90%;
+    margin-bottom: 20px;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    border: solid 4px #083358;
+    filter: drop-shadow(20px 20px 50px #FFD717);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* Página " PRINCIPAL " */
+
+.titulo{
+    padding: 20px;
+    color: #f6f6f6;
+    font-family: "PT Sans", sans-serif;
+}
+
+.container__principal{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 20px;
+    border: solid 2px #f6f6f6;
+    border-radius: 122px;
+    background-color: #083358;
+    filter: drop-shadow(20px 20px 50px #FFD717);
+}
+
+.botoes__1__2{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.botao__1{
+    padding: 40px 72px;
+    border-radius: 100px 20px 20px 20px;
+}
+
+.botao__2{
+    padding: 40px 74px;
+    border-radius: 20px 100px 20px 20px;
+}
+
+.botoes__3__4__5{
+    margin-bottom: 5px;
+}
+
+.botoes__9__10{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.botao__8{
+    padding: 40px 33px;
+}
+
+.botao__9{
+    padding: 40px 60px;
+    border-radius: 20px 20px 20px 100px;
+}
+
+.botao__10{
+    padding: 40px 60px;
+    border-radius: 20px 20px 100px 20px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* Página " 1, 3, 7, 8 " */
+
+.container__paginas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #083358;
+    gap: 20px;
+}
+
+.titulo__paginas{
+    padding: 20px;
+    color: #f6f6f6;
+    font-family: "PT Sans", sans-serif;
+}
+
+.container__paginas__paragrafo{
+    padding: 20px;
+    width: 80%;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    border: solid 4px #083358;
+    filter: drop-shadow(20px 20px 50px #FFD717);
+    font-weight: 500;
+}
+
+.verificacao{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.bibliografia{
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+    border: solid 4px #083358;
+    filter: drop-shadow(20px 20px 50px #FFD717);
+}
+
+.pg2__nav{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.pg2__links{
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* Página " 7 " */
+
+.container__foto{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagem__gestante__deitada{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: solid 2px #083358;
+}
+
+/*-------------------------------------------------------------------------------*/
+/* Responsividade */
+
+@media (max-width: 911px){
+
+    header{
+        font-size: 18px;
+    }
+
+    .titulo, 
+    .titulo__paginas{
+        font-size: 18px;
+    }
+
+    .container__principal{
+        width: 90%;
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .botoes__1__2, 
+    .botoes__3__4__5,
+    .botoes__6__7__8,
+    .botoes__9__10,
+    .link__membros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        gap: 1px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+
+    .botao__1, 
+    .botao__2, 
+    .botao__3, 
+    .botao__4, 
+    .botao__5, 
+    .botao__6, 
+    .botao__7,
+    .botao__8, 
+    .botao__9, 
+    .botao__10,
+    .link__membros{
+        margin-bottom: 5px;
+        width: 100%;
+        padding: 15px 20px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+
+    .container__paginas__paragrafo, 
+    .titulo__pg7,
+    .container__membros{
+        font-size: 16px;
+    }
+
+    .bibliografia, 
+    .voltar,
+    .pg2__links{
+        font-size: 14px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+}
